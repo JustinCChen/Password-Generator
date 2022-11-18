@@ -41,6 +41,8 @@ function getPasswordOptions() {
     alert('Must select at least one character type');
     return null;
   }
+
+
   let passwordOptions = {
     length: length,
     hasSpecialCharacters: hasSpecialCharacters,
